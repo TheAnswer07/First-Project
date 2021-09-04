@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {  
+box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+#nav {
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 1rem;
+
+}
+
+li {
+list-style-type: none;
+margin: 0 0.8rem;
+
+}
+
+
+.tools {
+display: flex;
+padding: 0;
+}
+
+
+.logo {
+    width: 150px; 
+    height: 75px;
+}
+
+.logo img {
+width: 100%;
+height: 100%;
+}
+
+#main {
+    background: url("./house-back.jpeg") no-repeat center/cover;
+    height: 70vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+#main h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+#main p {
+    font-size: 1.2rem;
+}
+
+#main form input {
+padding: 1rem;
+width: 500px;
+outline: none;
+
+}
